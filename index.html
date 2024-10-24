@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./src/css/style.css">
     <title>Exemplo4</title>
 </head>
+
 <body>
 
     <header>
@@ -19,8 +20,23 @@
         </nav>
     </header>
 
+    <hr>
+
     <section>
         
+        <h1>Classificação do Torneio</h1>
+
+        <p>Primeiro Colocado: <span class="time"></span></p>
+        <p>Segundo Colocado: <span class="time"></span></p>
+        <p>Terceito Colocado: <span class="time"></span></p>
+
+        <hr>
+        
+        <h2>Novo Classificado: <input type="text" id="novo"></h2>
+        
+        <p>Posição: <input type="number" id="posicao" min="1" max="3"></p>
+        <button onclick="inserir()">Adcionar</button>
+
     </section>
 
     <!--CHAMANDO O JS EXTERNO-->
