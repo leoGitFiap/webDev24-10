@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CHAMANDO O CSS EXTERNO-->
+    <link rel="stylesheet" href="./src/css/style.css">
     <title>Login</title>
 </head>
 <body>
+
     <header>
-        <h1>Login</h1>
+        <h1>Logo</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -15,5 +18,26 @@
             </ul>
         </nav>
     </header>
+
+    <section>
+        <form action="">
+            <h2>Login</h2>
+
+            <p>
+                <label for="usuario">Usuário:</label>
+                <input type="text" id="usuario" placeholder="Digite seu Usuário">
+            </p>
+
+            <p>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" placeholder="Digite sua Senha">
+            </p>
+
+            <button type="submit" onclick="validar()">Logar</button>
+        </form>
+    </section>
+    
+    <!--CHAMANDO O JS EXTERNO-->
+    <script src="./src/js/script.js"></script>
 </body>
 </html>
