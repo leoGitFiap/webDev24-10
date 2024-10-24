@@ -1,0 +1,39 @@
+
+body{
+
+    background-color: black;
+    background-image: linear-gradient(black, gray);
+
+}
+
+header{
+
+    background-image: linear-gradient(black, red);
+
+}
+
+footer{
+
+    background-image: linear-gradient(to top black, gray);
+
+}
+
+.r{
+
+    color: white;
+    margin-left: 47%;
+
+}
+
+.n{
+    margin-left: 44.5%;
+    padding: 10px;
+}
+
+.ul{
+    color: black;
+}
+
+.a{
+    color: black;
+}
